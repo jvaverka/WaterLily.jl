@@ -27,6 +27,9 @@ export AbstractBody
 include("AutoBody.jl")
 export AutoBody,measure!,measure
 
+include("MeshBody.jl")
+export MeshBody
+
 include("Metrics.jl")
 using LinearAlgebra: norm2
 
